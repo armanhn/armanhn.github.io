@@ -1,0 +1,147 @@
+body {
+    background-color: #100e17 !important;
+    color: rgb(177, 151, 151) !important;
+}
+
+.navbar {
+    position: fixed !important;
+    /* display: flex !important; */
+    right: 0 !important;
+    left: 0 !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    z-index: 1 !important;
+
+}
+
+.navbar-brand {
+    margin-left: 120px;
+}
+
+#edu-cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(223, 88, 88, 0.2)) !important;
+    background-color: #100e17 !important;
+    border-radius: 5px !important;
+}
+
+#edu .text-decoration-none {
+    color: black !important;
+}
+
+.card-body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(223, 88, 88, 0.2));
+    background-color: #100e17;
+
+}
+
+.nav-link {
+    color: #d6beeb !important;
+    font-size: 25px !important;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    justify-content: center;
+
+}
+
+#nav-button {
+    background: url(Matrix.png) no-repeat !important;
+}
+
+#hero {
+    padding: 150px 0px;
+}
+
+#hero-image {
+    padding-left: 200px;
+}
+
+#hero img {
+    max-height: 500px;
+    max-width: auto;
+    border: 20px solid rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+}
+
+#about {
+    padding: 150px 0px;
+}
+
+#about-image {
+    border: 20px solid black;
+}
+
+#about img {
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgb(0 0 0 / 14%);
+    height: 350px;
+    object-fit: cover;
+}
+
+#skills {
+    padding: 150px 0px;
+}
+
+.img-thumbnail {
+
+    background-color: #bf9ac5 !important;
+    border: hidden !important;
+    border-radius: 0.25rem !important;
+    max-width: 100% !important;
+    height: 40px !important;
+}
+
+.progress {
+    display: flex !important;
+    height: 1.5rem !important;
+    overflow: hidden !important;
+    font-size: 1rem !important;
+    background-color: hsl(250deg 92% 85%) !important;
+    border-radius: 0.50rem !important;
+    gap: 75px !important;
+    text-align: justify !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+.progress-bar {
+    background-color: hsl(250deg 69% 61%) !important;
+    border-radius: 0.50rem !important;
+}
+
+#edu {
+    padding: 150px 0px;
+}
+
+#edu .card {
+    color: rgb(177, 151, 151);
+}
+
+#portfolio {
+    padding: 150px 0px;
+}
+
+#portfolio .card {
+    color: rgb(177, 151, 151);
+}
+
+#contact {
+    padding: 150px 0px 0px 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#footer {
+    padding: 20px 0px;
+}
+
+#skills h1 {
+    padding-bottom: 120px;
+}
