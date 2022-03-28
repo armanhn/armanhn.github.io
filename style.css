@@ -145,3 +145,15 @@ h1 {
 #skills h1 {
     padding-bottom: 120px;
 }
+
+
+
+@media (max-width: 576px) {
+    #hero-image {
+        padding-left: 0px !important;
+    }
+
+    #about img {
+        height: auto;
+    }
+}
