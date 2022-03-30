@@ -157,6 +157,7 @@ h1 {
     
     .row {
         flex-direction: column;
+        gap:15px;
     }
 
     #footer .row {
