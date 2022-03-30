@@ -154,4 +154,12 @@ h1 {
     #about img {
         height: auto;
     }
+    
+    .row {
+        flex-direction: column;
+    }
+
+    #footer .row {
+        flex-direction: row;
+    }
 }
