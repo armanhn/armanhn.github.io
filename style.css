@@ -144,6 +144,9 @@ h1 {
     padding-bottom: 120px;
 }
 
+#contact .row {
+    padding: 0 42%;
+}
 
 
 @media (max-width: 768px) {
