@@ -145,7 +145,7 @@ h1 {
 }
 
 #contact .row {
-    padding: 0 27%;
+    padding: 0 30%;
 }
 
 
@@ -165,5 +165,8 @@ h1 {
 
     #footer .row {
         flex-direction: row;
+    }
+    #contact .row {
+         padding: 0 20%
     }
 }
